@@ -1,0 +1,17 @@
+{
+  "type": "createTable",
+  "tableId": "test5",
+  "schema": [{
+      "description": "first column",
+      "mode": "REQUIRED",
+      "name": "I_was_here_first",
+      "type": "string"
+    },
+    {
+      "description": "second column",
+      "mode": "NULLABLE",
+      "name": "I_was_here_second",
+      "type": "INTEGER"
+    }
+  ]
+}

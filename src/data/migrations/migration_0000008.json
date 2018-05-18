@@ -1,0 +1,9 @@
+{
+  "type": "insertTable",
+  "tableId": "acl",
+  "rows": [{
+    "role": "organization_admin",
+    "resource": "/organization/user/info/",
+    "permission": "get"
+  }]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "createTable",
+  "tableId": "acl",
+  "schema": [{
+      "mode": "REQUIRED",
+      "name": "role",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "resource",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "permission",
+      "type": "STRING"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "type": "createTable",
+  "tableId": "test3",
+  "schema": "Name:STRING, Name2:STRING"
+}

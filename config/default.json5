@@ -1,0 +1,11 @@
+{
+  google: {
+    bigQuery: {
+      projectId: '',
+      dataSet: ''
+    }
+  },
+  logger: {
+    level: 'info'
+  }
+}

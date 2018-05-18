@@ -1,0 +1,20 @@
+{
+  "type": "insertTable",
+  "tableId": "acl",
+  "rows": [{
+      "role": "organization_admin",
+      "resource": "/organization/user/info/first",
+      "permission": "get"
+    },
+    {
+      "role": "organization_admin",
+      "resource": "/organization/user/info/third",
+      "permission": "get"
+    },
+    {
+      "role": "organization_admin",
+      "resource": "/organization/user/info/second",
+      "permission": "get"
+    }
+  ]
+}

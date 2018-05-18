@@ -1,0 +1,35 @@
+{
+  "type": "createTable",
+  "tableId": "company_user",
+  "schema": [{
+      "mode": "REQUIRED",
+      "name": "company_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "email",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "password",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "roles",
+      "type": "RECORD",
+      "fields": [{
+        "mode": "REPEATED",
+        "name": "role",
+        "type": "STRING"
+      }]
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "created_at",
+      "type": "DATETIME"
+    }
+  ]
+}
